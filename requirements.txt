@@ -19,7 +19,10 @@ pyenchant
 pymorphy2
 pymorphy2-dicts-ru
 pymorphy2-dicts-uk
+pymssql
+pyodbc
 pyotp
+pyspark
 python-geoip-geolite2
 redis
 scikit-learn

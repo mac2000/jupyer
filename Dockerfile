@@ -8,7 +8,7 @@ RUN pip install nltk
 RUN python -m nltk.downloader all
 
 USER root
-RUN apt-get update -qq && apt-get install -y python-pyodbc
+RUN apt-get update -qq && apt-get install -y unixodbc unixodbc-dev freetds-dev freetds-bin
 USER jovyan
 
 COPY requirements.txt requirements.txt
