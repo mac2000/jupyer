@@ -1,6 +1,7 @@
 bs4
 gensim
 geoip2
+google-api-python-client
 graphviz
 hyperopt
 lightfm
