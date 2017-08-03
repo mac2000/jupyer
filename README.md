@@ -18,7 +18,7 @@ df = gbq.read_gbq('SELECT * FROM rualogs.data.log LIMIT 100', project_id='rualog
 df.head()
 ```
 
-https://pandas.pydata.org/pandas-docs/stable/generated/pandas.read_gbq.html
+[pandas read_gbq](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.read_gbq.html)
 
 ## SQL Server
 
@@ -33,4 +33,4 @@ while row:
   row = cursor.fetchone()
 ```
 
-https://docs.microsoft.com/en-us/sql/connect/python/pymssql/step-3-proof-of-concept-connecting-to-sql-using-pymssql
+[pymssql](https://docs.microsoft.com/en-us/sql/connect/python/pymssql/step-3-proof-of-concept-connecting-to-sql-using-pymssql)
